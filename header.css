@@ -1,0 +1,59 @@
+@import "./theme.css";
+
+
+header{
+    position:  absolute;
+    left: 0px;
+    top: 0;
+    bottom: 0px;
+    width: 20%;
+    background-color: var(--secondary);
+    align-items: center;
+    
+    
+}
+#profil-picture{
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    left: 5px;
+    right: 5px;
+    align-items: center;
+    border: 3px solid var(--accent);
+}
+
+header h3{
+    color: var(--extra);
+    font-family: Amatic SC;
+    font-size: 1.7rem;
+    text-align: center;
+}
+header h4{
+    color: var(--secondary);
+    font-family: pacifico;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    
+
+}
+header nav ul li{
+
+    background-color: var(--accent);
+    
+    list-style: none;
+    padding: 10px;        
+    margin: 2px 2px 2px 2px;
+    border-radius: 20%;
+    text-align: center;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+header nav ul li a:hover{
+    color: var(--secondary);
+}
