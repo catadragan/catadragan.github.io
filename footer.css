@@ -1,18 +1,18 @@
 @import "./theme.css";
 
 
-.footer{
-    position: fixed;
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
     bottom: 0;
     width: 100%;
-    left: 0;
-    right: 0;
     height: 20%;
     background-color: var(--accent);
     color:   var(--primary);
 }
 
-footer, img{
+footer img{
     width: 5%;
     height: auto;
     text-align: center;    

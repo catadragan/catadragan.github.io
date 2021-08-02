@@ -2,58 +2,59 @@
 
 
 header{
-    position:  absolute;
-    left: 0px;
-    top: 0;
-    bottom: 0px;
+    position:  fixed;
     width: 20%;
+    height: 100%;
+    align-items: center; 
     background-color: var(--secondary);
-    align-items: center;
-    
-    
-}
-#profil-picture{
-    width: 70%;
-    height: auto;
-    border-radius: 50%;
-    left: 5px;
-    right: 5px;
-    align-items: center;
-    border: 3px solid var(--accent);
+    font-size: 7px;
 }
 
+#profil-picture{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    height: auto;
+    border: 3px solid var(--accent);
+    border-radius: 50%;
+  
+}
 header h3{
-    color: var(--extra);
+    color: var(--primary);
     font-family: Amatic SC;
-    font-size: 1.7rem;
+    font-size: 5em;
     text-align: center;
 }
 header h4{
-    color: var(--secondary);
+    color: var(--background);
     font-family: pacifico;
-    font-size: 1.2rem;
+    font-size: 3em;
     text-align: center;
     font-style: italic;
-    
-
+    padding: 20px 0px 20px 0px;
+}
+header nav ul{
+    padding: 10px;
+}
+header nav ul li button{
+    background-color: var(--accent);
+    padding: 10px 30px;        
+    border-radius: 15px;
+    text-align: center;
+    font-size: 2.5em;
 }
 header nav ul li{
-
-    background-color: var(--accent);
-    
+   
     list-style: none;
-    padding: 10px;        
-    margin: 2px 2px 2px 2px;
-    border-radius: 20%;
+    margin: 6px;
     text-align: center;
-    
 }
+
 header nav ul li a{
     text-decoration: none;
-    color: white;
     
 }
-
-header nav ul li a:hover{
+header nav ul li button:hover{
     color: var(--secondary);
 }
