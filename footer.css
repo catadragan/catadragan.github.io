@@ -10,10 +10,18 @@ footer{
     height: 20%;
     background-color: var(--accent);
     color:   var(--primary);
+    align-items: center;
 }
 
+footer h2{
+    color: var(--primary);
+    font-size: 2.5em;
+    margin: 10px 40px;
+
+}
 footer img{
-    width: 5%;
-    height: auto;
+    width: 4%;
+    height: 25%;
     text-align: center;    
+    margin: 5px;
 }

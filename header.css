@@ -1,21 +1,27 @@
 @import "./theme.css";
 
-
-header{
-    position:  fixed;
-    width: 20%;
-    height: 100%;
-    align-items: center; 
-    background-color: var(--secondary);
-    font-size: 7px;
+h3,h4{
+    padding: 0;
+    margin: 0;    
 }
+header{
+    background-color: var(--secondary);
+    position:  fixed;
+    width: 15%;
+    height: 100%;
+    margin-bottom: 20px;
+    align-items: center; 
+    font-size: 7px;
 
+}
 #profil-picture{
     display: block;
     margin-right: auto;
     margin-left: auto;
     width: 70%;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 3px solid var(--accent);
     border-radius: 50%;
   
@@ -23,23 +29,25 @@ header{
 header h3{
     color: var(--primary);
     font-family: Amatic SC;
-    font-size: 5em;
+    font-size: 4.5em;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header h4{
     color: var(--background);
-    font-family: pacifico;
+    font-family: Parisienne;
     font-size: 3em;
     text-align: center;
     font-style: italic;
-    padding: 20px 0px 20px 0px;
+    padding: 5px 0px 5px 0px;
 }
 header nav ul{
-    padding: 10px;
+    padding: 2px;
 }
 header nav ul li button{
     background-color: var(--accent);
-    padding: 10px 30px;        
+    padding: 10px 30px;  
     border-radius: 15px;
     text-align: center;
     font-size: 2.5em;
@@ -47,14 +55,18 @@ header nav ul li button{
 header nav ul li{
    
     list-style: none;
-    margin: 6px;
+    margin: 5px;
     text-align: center;
 }
 
 header nav ul li a{
     text-decoration: none;
-    
+    color: var(--secondary)
 }
-header nav ul li button:hover{
-    color: var(--secondary);
+header nav ul li a:hover{
+    color: var(--extra);
+}
+header nav ul li a:active{
+    color: var(--primary);
+    
 }
